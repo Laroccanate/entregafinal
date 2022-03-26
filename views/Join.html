@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="larocca, nate, photography, emerging talent, Commercials, music">
+    <meta name="descriptions" content="Join us to Larocca Studio">
+    <title>Larocca Photography</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon"
+        href="https://img.icons8.com/external-flat-icons-inmotus-design/344/external-cam-photo-camera-flat-icons-inmotus-design-2.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Css Propio -->
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Comienzo Header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Larocca Photography</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Biography.html">Biography</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Works.html">Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Booking.html">Booking</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Join.html">Join</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Comienzo Main -->
+        <main class="container">
+            <div class="row text-center text-md-center col-lg-12 col-12">
+                <h2 class="titular" data-aos="fade-up">Join</h2>
+                <!-- FORMULARIO CONTACTO -->
+                <div class="main--join">
+                    <form action="#">
+                        <label for="name">
+                            <input placeholder="Name" type="text" name="" id="nombre">
+                        </label> <br>
+                        <label for="Surname">
+                            <input placeholder="Surname" type="text" name="" id="apellido">
+                        </label> <br>
+                        <label for="Telephono">
+                            <input placeholder="Telephone" type="text" name="" id="telefono">
+                        </label><br>
+                        <label for="Email">
+                            <input placeholder="Email:" type="text" name="" id="email">
+                        </label><br>
+                        <label for="Beginner">Beginner?<br>
+                            Yes <input type="radio" name="direction" id="si">
+                            No <input type="radio" name="direction" id="no">
+                        </label><br>
+                    </form>
+                    <div class="row text-center">
+                        <!-- DESKTOP -->
+                        <div class="main--join d-none d-sm-block">
+                            Tell something about you: <br>
+                            <textarea name="" id="" cols="60" rows="10"></textarea>
+                        </div>
+                        <!-- MOBILE -->
+                        <div class="main--join d-block d-sm-none col-12">
+                            Tell something about you: <br>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            I accept terms and conditions
+                            <input type="checkbox" name="Acept" value="1"><br>
+                            <input class="boton-send" type="submit" value="Send">
+                            <input class="boton-reset" type="reset" value="Reset">
+                            <input class="boton-noapply" type="button" value="No apply">
+                        </div>
+                    </div>
+        </main>
+        <!-- Comienzo Footer -->
+        <footer class="container footerjoin justify-content-center footeresp">
+            <div class="row">
+                <div class="d-inline-flex d-flex aling-items-center justify-content-center">
+                    <a href="https://www.instagram.com/">
+                        <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+                    <a href="https://www.facebook.com/">
+                        <img src="https://img.icons8.com/fluency/48/000000/facebook.png" /></a>
+                </div>
+            </div>
+        </footer>
+        <hr>
+        <div class="row">
+            <h6 class="text-center text-md-center small text-secondary">All Rights Reserved - Photography is under
+                copyright</h6>
+        </div>
+    </div>
+    <!-- Js Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+@mixin colorYback ($color, $background){
+    color: $color;
+    background-color: $background;
+}
+
+h5{
+    @include colorYback(black,white);
+}
+
+
+@mixin FRcenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.div h6{
+    @include FRcenter;
+} 

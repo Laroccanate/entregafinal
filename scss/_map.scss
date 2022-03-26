@@ -1,0 +1,26 @@
+$coloresPrincipales:(
+    colorPrimario: black,
+    colorSecundario: Gray,
+    
+    
+);
+
+@each $clave, $valor in $coloresPrincipales{
+    .#{$clave}{
+        color: $valor;
+    }
+}
+
+$estilos:(
+    color: black,
+    centro: center,
+    tFuente: 10px,
+    paddingB: 3rem
+);
+
+h6{
+    color: map-get($estilos,color );
+    text-align: map-get($estilos,centro );
+    font-size: map-get($estilos,tFuente );
+    padding-bottom: map-get($estilos,paddingTop );
+}
